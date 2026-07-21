@@ -32,5 +32,6 @@ Create a Vercel project from this repository and set:
 - **Framework Preset:** Next.js
 - **Build Command:** `npm run build`
 - **Install Command:** `npm install`
+- **Output Directory:** `out`
 
-Do not deploy from the repository root unless Vercel is explicitly configured with `website` as the root directory.
+Prefer deploying with `website` as the Root Directory. The repository also includes a root-level `vercel.json` plus npm workspace scripts as a safety net for projects that were accidentally created from the repository root; those settings delegate the production build to this static-exported website app and serve `website/out`.

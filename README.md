@@ -29,4 +29,4 @@ This repository is an initial scaffold. Content should be reviewed by faculty, a
 
 ## Website deployment note
 
-The public website is a standalone Next.js application under `website/`. When deploying to Vercel, set **Root Directory = `website`** so the site builds independently from the Skill packaging workflow.
+The public website is a standalone Next.js application under `website/`. When deploying to Vercel, set **Root Directory = `website`** so the site builds independently from the Skill packaging workflow. A root-level `vercel.json` and npm workspace scripts are also present so a Vercel project accidentally pointed at the repository root builds the static-exported `website` app and serves `website/out`.
