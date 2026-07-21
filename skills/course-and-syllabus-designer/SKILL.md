@@ -36,7 +36,7 @@ Open only the reference files needed for the current task:
 - Required deliverables and formatting: `references/output-contract.md`
 - Quality checks: `references/evaluation-rubric.md`
 
-Use shared repository guidance when relevant: `../../shared/faculty-control.md`, `../../shared/source-integrity.md`, `../../shared/restricted-materials.md`, `../../shared/accessibility-principles.md`, and `../../shared/institutional-policy-placeholders.md`.
+Use copied shared guidance when relevant: `references/shared/faculty-control.md`, `references/shared/source-integrity.md`, `references/shared/restricted-materials.md`, `references/shared/accessibility-principles.md`, and `references/shared/institutional-policy-placeholders.md`.
 
 ## Non-negotiable guardrails
 
@@ -50,4 +50,4 @@ Use shared repository guidance when relevant: `../../shared/faculty-control.md`,
 
 ## Validation
 
-When producing or revising the packaged skill files, run `python3 skills/course-and-syllabus-designer/scripts/validate_course_package.py` from the repository root when possible.
+When producing or revising the packaged skill files, run `python3 scripts/validate_skill_package.py skills/course-and-syllabus-designer` and `python3 scripts/package_skill.py skills/course-and-syllabus-designer` from the repository root when possible.
