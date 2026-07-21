@@ -107,5 +107,27 @@
       "I need a hypothetical that helps students distinguish personal jurisdiction cases.",
       "Revise this question sequence; it feels repetitive and too adversarial."
     ]
+  },
+  {
+    "name": "Teaching Materials Accessibility Reviewer",
+    "slug": "teaching-materials-accessibility-reviewer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty teaching partner for reviewing and revising syllabi, assignments, handouts, slides, readings, media, and classroom activities for likely accessibility, usability, clarity, and inclusive participation barriers.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Can you review this syllabus for accessibility?",
+      "Please make this assignment easier for students to understand and navigate.",
+      "Draft alt text and a long-description plan for this doctrinal diagram."
+    ]
   }
 ]

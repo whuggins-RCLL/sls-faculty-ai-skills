@@ -7,6 +7,7 @@ SLS Faculty AI Skills is a starter collection of reusable AI skill guidance for 
 - `shared/` contains reusable principles and policy placeholders that should inform all skills in this repository.
 - `skills/course-and-syllabus-designer/` contains the Skill for planning an entire course, redesigning a course, and drafting syllabus materials.
 - `skills/class-session-planner/` contains the Skill for one class meeting or a short connected sequence of class meetings.
+- `skills/teaching-materials-accessibility-reviewer/` contains the Skill for accessibility and usability review of instructional materials.
 - `evaluations/course-and-syllabus-designer/` and `evaluations/class-session-planner/` contain evaluation prompts, expected behaviors, fixtures, and regression checks.
 
 ## Core commitments
