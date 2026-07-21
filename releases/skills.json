@@ -85,5 +85,27 @@
       "Revise this vague AI policy and add examples for students.",
       "Create assignment-specific AI rules and a simple disclosure form for my research memo."
     ]
+  },
+  {
+    "name": "Socratic Question and Hypothetical Designer",
+    "slug": "socratic-question-and-hypothetical-designer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty teaching partner for creating purposeful Socratic and guided-questioning sequences, cold-call pathways, branching follow-ups, factual variations, and instructional hypotheticals.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me develop Socratic questions for a class on consideration.",
+      "I need a hypothetical that helps students distinguish personal jurisdiction cases.",
+      "Revise this question sequence; it feels repetitive and too adversarial."
+    ]
   }
 ]
