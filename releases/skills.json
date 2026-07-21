@@ -1,10 +1,39 @@
-[{
-  "name": "Course and Syllabus Designer",
-  "slug": "course-and-syllabus-designer",
-  "version": "0.1.0",
-  "status": "Pilot",
-  "platforms": ["ChatGPT", "Claude"],
-  "downloadUrl": "https://drive.google.com/uc?export=download&id=1BJBrq8TM8yvowDR68c6HIOAe-4YXki9q",
-  "summary": "A faculty-centered assistant for designing law courses, refreshing syllabi, aligning assignments, and preparing accessible course materials.",
-  "updated": "2026-07-21"
-}]
+[
+  {
+    "name": "Course and Syllabus Designer",
+    "slug": "course-and-syllabus-designer",
+    "version": "0.1.0",
+    "status": "Pilot",
+    "platforms": ["ChatGPT", "Claude"],
+    "downloadUrl": "https://drive.google.com/uc?export=download&id=1BJBrq8TM8yvowDR68c6HIOAe-4YXki9q",
+    "summary": "A faculty-centered assistant for designing law courses, refreshing syllabi, aligning assignments, and preparing accessible course materials.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me design a syllabus for a new seminar.",
+      "Revise this existing course calendar and reading list."
+    ]
+  },
+  {
+    "name": "Class Session Planner",
+    "slug": "class-session-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": ["ChatGPT", "Claude"],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty teaching partner for designing, revising, and preparing one law-school class meeting or a short connected sequence with aligned objectives, activities, questions, timing, and teaching notes.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I have to teach personal jurisdiction for 90 minutes next week. Help me plan it.",
+      "Revise this class plan; discussion always runs long.",
+      "Create Socratic questions and branching follow-ups for this case."
+    ]
+  }
+]
