@@ -5,8 +5,9 @@ SLS Faculty AI Skills is a starter collection of reusable AI skill guidance for 
 ## Repository structure
 
 - `shared/` contains reusable principles and policy placeholders that should inform all skills in this repository.
-- `skills/course-and-syllabus-designer/` contains the initial skill for designing courses and syllabi.
-- `evaluations/course-and-syllabus-designer/` is reserved for evaluation prompts, rubrics, fixtures, and regression checks for the course and syllabus designer skill.
+- `skills/course-and-syllabus-designer/` contains the Skill for planning an entire course, redesigning a course, and drafting syllabus materials.
+- `skills/class-session-planner/` contains the Skill for one class meeting or a short connected sequence of class meetings.
+- `evaluations/course-and-syllabus-designer/` and `evaluations/class-session-planner/` contain evaluation prompts, expected behaviors, fixtures, and regression checks.
 
 ## Core commitments
 
@@ -21,11 +22,11 @@ SLS Faculty AI Skills is a starter collection of reusable AI skill guidance for 
 1. Review the shared guidance in `shared/`.
 2. Customize `shared/institutional-policy-placeholders.md` for your institution.
 3. Add program-, school-, or course-specific reference material to the relevant skill `references/` directory only when it can be safely shared with AI systems.
-4. Add evaluations under `evaluations/course-and-syllabus-designer/` as workflows mature.
+4. Add evaluations under the matching `evaluations/<skill-slug>/` directory as workflows mature.
 
 ## Status
 
-This repository is an initial scaffold. Content should be reviewed by faculty, accessibility specialists, and institutional policy owners before operational deployment.
+This repository is an early-stage collection. Content should be reviewed by faculty, accessibility specialists, and institutional policy owners before operational deployment.
 
 ## Website deployment note
 

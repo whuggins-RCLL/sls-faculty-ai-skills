@@ -9,6 +9,8 @@ export type Skill = {
   downloadUrl: string;
   summary: string;
   updated: string;
+  installationGuides?: { chatgpt: string; claude: string };
+  usageExamples?: string[];
 };
 
 export function getSkills(): Skill[] {
