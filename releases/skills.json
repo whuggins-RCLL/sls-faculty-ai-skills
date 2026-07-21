@@ -129,5 +129,27 @@
       "Please make this assignment easier for students to understand and navigate.",
       "Draft alt text and a long-description plan for this doctrinal diagram."
     ]
+  },
+  {
+    "name": "Reading List and Course Materials Curator",
+    "slug": "reading-list-and-course-materials-curator",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty teaching partner for building, verifying, annotating, balancing, and maintaining course reading lists and instructional resource collections.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me build a reading list for a seminar on AI and the legal profession.",
+      "Update this five-year-old syllabus and flag outdated or inaccessible readings.",
+      "Audit this weekly module for workload, access, and balance."
+    ]
   }
 ]
