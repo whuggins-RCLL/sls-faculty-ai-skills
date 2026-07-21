@@ -63,5 +63,27 @@
       "Review this take-home exam for fairness, workload, and ambiguity.",
       "Build a rubric for this policy memo assignment with limited AI use for brainstorming."
     ]
+  },
+  {
+    "name": "Faculty AI Policy Builder",
+    "slug": "faculty-ai-policy-builder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A neutral faculty teaching-policy partner for creating, revising, comparing, auditing, and explaining course-level and assignment-level generative AI-use policies, disclosure forms, student FAQs, and implementation guidance.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I need an AI policy for my seminar, but I am not sure how strict it should be.",
+      "Revise this vague AI policy and add examples for students.",
+      "Create assignment-specific AI rules and a simple disclosure form for my research memo."
+    ]
   }
 ]
