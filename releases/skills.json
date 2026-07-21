@@ -4,7 +4,10 @@
     "slug": "course-and-syllabus-designer",
     "version": "0.1.0",
     "status": "Pilot",
-    "platforms": ["ChatGPT", "Claude"],
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
     "downloadUrl": "https://drive.google.com/uc?export=download&id=1BJBrq8TM8yvowDR68c6HIOAe-4YXki9q",
     "summary": "A faculty-centered assistant for designing law courses, refreshing syllabi, aligning assignments, and preparing accessible course materials.",
     "updated": "2026-07-21",
@@ -22,7 +25,10 @@
     "slug": "class-session-planner",
     "version": "0.1.0",
     "status": "Development",
-    "platforms": ["ChatGPT", "Claude"],
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
     "downloadUrl": "https://drive.google.com/uc?export=download&id=1sMyIM7GhU24WPRFz9F3RQRE6WQ_25ct5",
     "summary": "A faculty teaching partner for designing, revising, and preparing one law-school class meeting or a short connected sequence with aligned objectives, activities, questions, timing, and teaching notes.",
     "updated": "2026-07-21",
@@ -34,6 +40,28 @@
       "I have to teach personal jurisdiction for 90 minutes next week. Help me plan it.",
       "Revise this class plan; discussion always runs long.",
       "Create Socratic questions and branching follow-ups for this case."
+    ]
+  },
+  {
+    "name": "Assessment and Rubric Builder",
+    "slug": "assessment-and-rubric-builder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty teaching partner for designing, revising, aligning, and reviewing law-school assessments, exams, rubrics, scoring guides, formative checks, and AI-literacy evaluation exercises.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I need a final assessment for my upper-level privacy seminar.",
+      "Review this take-home exam for fairness, workload, and ambiguity.",
+      "Build a rubric for this policy memo assignment with limited AI use for brainstorming."
     ]
   }
 ]
