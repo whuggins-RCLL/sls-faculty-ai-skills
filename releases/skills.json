@@ -1,0 +1,10 @@
+[{
+  "name": "Course and Syllabus Designer",
+  "slug": "course-and-syllabus-designer",
+  "version": "0.1.0",
+  "status": "Pilot",
+  "platforms": ["ChatGPT", "Claude"],
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1BJBrq8TM8yvowDR68c6HIOAe-4YXki9q",
+  "summary": "A faculty-centered assistant for designing law courses, refreshing syllabi, aligning assignments, and preparing accessible course materials.",
+  "updated": "2026-07-21"
+}]
