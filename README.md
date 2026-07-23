@@ -1,33 +1,49 @@
 # SLS Faculty AI Skills
 
-SLS Faculty AI Skills is a starter collection of reusable AI skill guidance for faculty-centered course design. The repository emphasizes faculty control, source integrity, restricted-material safeguards, accessibility, and institution-specific policy adaptation.
+SLS Faculty AI Skills is a collection of reusable AI skill guidance for faculty-centered course design and AI judgment. The repository emphasizes faculty control, source integrity, restricted-material safeguards, accessibility, institution-specific policy adaptation, vendor neutrality, evidence before deployment, and human responsibility.
+
+## Collections
+
+### Set 1: Faculty Teaching and Course Design
+
+The existing teaching collection includes seven Skills: Course and Syllabus Designer; Class Session Planner; Assessment and Rubric Builder; Faculty AI Policy Builder; Socratic Question and Hypothetical Designer; Teaching Materials Accessibility Reviewer; and Reading List and Course Materials Curator.
+
+### Stanford Law School Faculty AI Lab — SLS AI Judgment Series
+
+Tagline: Problem first. Tool second. Evidence always.
+
+The AI Judgment Series helps faculty understand AI systems, interrogate claims, evaluate products, identify appropriate use cases, test performance, design governance, and translate AI understanding into teaching. Its first Skill is AI System Anatomy Lab. Planned future Skills include AI Product Decoder, AI Claims Cross-Examiner, Problem-to-AI Use Case Studio, AI Pilot and Evaluation Designer, AI Governance and Human Judgment Simulator, and AI Teaching Transfer Studio.
+
+Collection charter: start with the problem; remain vendor neutral; require evidence before deployment; keep human responsibility explicit; apply a Stanford Lens to mission, data, privacy, teaching, and authority; use current web research for changed product, policy, service, benchmark, cost, and Stanford-status claims; keep learning accessible and conversational; and use fictional composite scenario safeguards without attributing invented proposals to real people.
 
 ## Repository structure
 
-- `shared/` contains reusable principles and policy placeholders that should inform all skills in this repository.
+- `shared/` contains reusable design-source principles and policy placeholders that should inform skills in this repository. Deployable Skills must copy required runtime material into their own directories.
 - `skills/course-and-syllabus-designer/` contains the Skill for planning an entire course, redesigning a course, and drafting syllabus materials.
-- `skills/class-session-planner/` contains the Skill for one class meeting or a short connected sequence of class meetings.
-- `skills/teaching-materials-accessibility-reviewer/` contains the Skill for accessibility and usability review of instructional materials.
-- `evaluations/course-and-syllabus-designer/` and `evaluations/class-session-planner/` contain evaluation prompts, expected behaviors, fixtures, and regression checks.
+- `skills/ai-system-anatomy-lab/` contains the self-contained AI Judgment Series Skill for understanding AI-system layers.
+- `evaluations/` contains evaluation prompts, expected behaviors, fixtures, and regression checks.
+- `website/` contains the standalone Next.js catalog.
 
 ## Core commitments
 
-1. Keep faculty responsible for academic judgment, course goals, grading policies, and final content approval.
+1. Keep faculty responsible for academic judgment, course goals, grading policies, AI-system decisions, and final content approval.
 2. Cite and preserve source material accurately when adapting institutional, disciplinary, or instructor-provided content.
-3. Avoid exposing restricted, confidential, or personally identifiable student and institutional data.
-4. Design accessible materials from the start.
+3. Avoid exposing restricted, confidential, privileged, unpublished, personally identifiable student, and institutional data.
+4. Design accessible materials and learning experiences from the start.
 5. Replace policy placeholders with local institutional requirements before production use.
+6. Use current authoritative web research for current product, provider, model, Stanford service, policy, pricing, benchmark, security, and data-use claims.
 
 ## Getting started
 
-1. Review the shared guidance in `shared/`.
-2. Customize `shared/institutional-policy-placeholders.md` for your institution.
-3. Add program-, school-, or course-specific reference material to the relevant skill `references/` directory only when it can be safely shared with AI systems.
+1. Review the relevant shared design-source guidance in `shared/`.
+2. Ensure deployable Skills are self-contained and do not reference shared paths at runtime.
+3. Add program-, school-, or course-specific reference material to the relevant Skill `references/` directory only when it can be safely shared with AI systems.
 4. Add evaluations under the matching `evaluations/<skill-slug>/` directory as workflows mature.
+5. Run source validation, packaging, ZIP validation, evaluations, linting, and website builds before release.
 
 ## Status
 
-This repository is an early-stage collection. Content should be reviewed by faculty, accessibility specialists, and institutional policy owners before operational deployment.
+This repository is an early-stage collection. Content should be reviewed by faculty, accessibility specialists, technical owners, privacy/security experts, and institutional policy owners before operational deployment.
 
 ## Website deployment note
 

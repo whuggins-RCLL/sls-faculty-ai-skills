@@ -151,5 +151,28 @@
       "Update this five-year-old syllabus and flag outdated or inaccessible readings.",
       "Audit this weekly module for workload, access, and balance."
     ]
+  },
+  {
+    "name": "SLS AI System Anatomy Lab",
+    "slug": "ai-system-anatomy-lab",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A conversational faculty learning lab that reveals the layers inside AI systems and helps distinguish models, products, retrieval, agents, permissions, evaluation, hosting, adaptation, and training before making a build, buy, configure, host, pilot, or do-not-use decision.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "What does it actually mean to build our own AI?",
+      "If we upload our materials, are we training the model?",
+      "Help me map the layers in this proposed AI assistant.",
+      "What is the difference between retrieval, fine-tuning, and pretraining?"
+    ]
   }
 ]
