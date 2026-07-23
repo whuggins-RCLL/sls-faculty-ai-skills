@@ -1,5 +1,6 @@
 # Evaluation Index
 
+- `ai-pilot-and-evaluation-designer/`: regression scenarios for the Skill that turns a defined AI use case into a responsible, limited, documented pilot with a baseline, representative test set, predetermined criteria, omission and review-burden measurement, stop conditions, and a decision memo.
 - `ai-product-and-vendor-decoder/`: regression scenarios for the Skill that researches and explains current AI products, features, models, and vendors.
 - `ai-system-anatomy-lab/`: regression scenarios for the Skill that teaches AI-system layers, data flow, and ownership/control distinctions.
 - `assessment-and-rubric-builder/`: evaluation area for the Skill that designs law-school assessments and rubrics.

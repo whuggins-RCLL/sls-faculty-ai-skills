@@ -270,5 +270,29 @@
       "Create a ten-minute AI learning path before my faculty meeting.",
       "Update my Faculty AI Learning Map based on what I have completed."
     ]
+  },
+  {
+    "name": "SLS AI Pilot and Evaluation Designer",
+    "slug": "ai-pilot-and-evaluation-designer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A faculty-centered evaluation designer for turning a defined AI use case into a responsible pilot with a meaningful baseline, representative test cases, success thresholds, failure rules, human-review measurement, data and permission limits, stop conditions, and a decision-ready results memo.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me design a pilot for this source-grounded faculty assistant.",
+      "What test cases should we use instead of relying on the vendor demo?",
+      "Create success thresholds and critical-failure rules for this use case.",
+      "Measure whether review and correction erase the expected time savings.",
+      "Turn these completed pilot results into a decision memo."
+    ]
   }
 ]

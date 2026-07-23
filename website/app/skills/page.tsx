@@ -21,7 +21,7 @@ const judgmentMeta: Record<string, { question: string; available: boolean }> = {
   "ai-claims-cross-examiner": { question: "What is being claimed, and what does the evidence establish?", available: true },
   "problem-to-ai-use-case-studio": { question: "Is AI appropriate for the problem?", available: false },
   "ai-capability-and-failure-lab": { question: "What happens when we test the behavior directly?", available: true },
-  "ai-pilot-and-evaluation-designer": { question: "Does the workflow perform acceptably?", available: false },
+  "ai-pilot-and-evaluation-designer": { question: "Does the workflow perform acceptably?", available: true },
   "ai-governance-and-human-judgment-simulator": { question: "Who has authority, responsibility, and stopping power?", available: false },
   "ai-teaching-transfer-studio": { question: "How should this affect teaching?", available: false },
 };

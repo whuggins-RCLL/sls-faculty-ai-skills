@@ -44,11 +44,11 @@ Routes may begin or end at any appropriate point. Not every faculty member must 
 4. **SLS AI Claims Cross-Examiner** — What is being claimed, and what does the evidence establish? (`skills/ai-claims-cross-examiner/`)
 5. **SLS Problem-to-AI Use Case Studio** — Is AI appropriate for the problem? (planned)
 6. **SLS AI Capability and Failure Lab** — What happens when we test the behavior directly? (`skills/ai-capability-and-failure-lab/`)
-7. **SLS AI Pilot and Evaluation Designer** — Does the workflow perform acceptably? (planned)
+7. **SLS AI Pilot and Evaluation Designer** — Does the workflow perform acceptably? (`skills/ai-pilot-and-evaluation-designer/`)
 8. **SLS AI Governance and Human Judgment Simulator** — Who has authority, responsibility, and stopping power? (planned)
 9. **SLS AI Teaching Transfer Studio** — How should this affect teaching? (planned)
 
-Development Skills on `main`: Compass, System Anatomy Lab, Product Decoder, Claims Cross-Examiner, and Capability and Failure Lab. Planned destination Skills are named by the Compass but are not yet merged or downloadable.
+Development Skills on `main`: Compass, System Anatomy Lab, Product Decoder, Claims Cross-Examiner, Capability and Failure Lab, and Pilot and Evaluation Designer. The remaining destination Skills (Problem-to-AI Use Case Studio, Governance and Human Judgment Simulator, Teaching Transfer Studio) are named by the Compass but are not yet merged or downloadable.
 
 Collection charter: start with the problem; remain vendor neutral; require evidence before deployment; keep human responsibility explicit; apply a Stanford Lens to mission, data, privacy, teaching, and authority; use current web research for changed product, policy, service, benchmark, cost, and Stanford-status claims; keep learning accessible and conversational; and use fictional composite scenario safeguards without attributing invented proposals to real people.
 
@@ -59,6 +59,9 @@ Collection charter: start with the problem; remain vendor neutral; require evide
 - **SLS AI Product Decoder** answers: What is this current product, and what additional value does it provide? It researches and explains a specific current product, feature, model, or vendor: identity, tier, architecture, dependencies, differentiation, Stanford public-information status, comparable alternatives, faculty use cases, vendor-demo questions, and safe narrow trials.
 - **SLS AI Claims Cross-Examiner** answers: What exactly is being claimed, and what does the evidence establish? It helps faculty clarify ambiguous terms, classify claim types, examine evidence and counterevidence, calibrate confidence, and propose useful questions or experiments.
 - **SLS AI Capability and Failure Lab** answers: What happens when we test the behavior directly? It helps faculty predict, run, observe, compare, and interpret safe controlled experiments involving capabilities and failure modes such as source use, omissions, variability, prompt sensitivity, sycophancy, retrieval, confidence, context conflicts, permissions, and human-review burden.
+- **SLS AI Pilot and Evaluation Designer** answers: Does the complete workflow perform acceptably under representative conditions? It begins after a problem and candidate use are defined and helps faculty design a baseline, representative test set, reference answers, success and failure criteria, omission and human-review measurement, data and permission limits, variability and change control, stop conditions, and a decision-ready results memo.
+
+These three are deliberately distinct: the **Problem-to-AI Use Case Studio** (planned) asks whether AI is appropriate for a problem at all; the **Capability and Failure Lab** tests what happens when one behavior is tested directly; and the **Pilot and Evaluation Designer** tests whether the complete workflow performs acceptably under representative conditions.
 
 ## Repository structure
 
@@ -68,6 +71,7 @@ Collection charter: start with the problem; remain vendor neutral; require evide
 - `skills/ai-product-and-vendor-decoder/` contains the self-contained AI Judgment Series Skill for researching and explaining a specific current AI product, feature, model, or vendor.
 - `skills/ai-claims-cross-examiner/` contains the self-contained AI Judgment Series Skill for examining and testing claims about AI against evidence, scope, and uncertainty.
 - `skills/ai-capability-and-failure-lab/` contains the self-contained AI Judgment Series Skill for predicting, testing, observing, and interpreting AI capabilities and failure modes through safe controlled experiments.
+- `skills/ai-pilot-and-evaluation-designer/` contains the self-contained AI Judgment Series Skill for turning a defined AI use case into a responsible, limited, documented pilot with a baseline, representative test cases, predetermined success and failure criteria, omission and review-burden measurement, stop conditions, and a decision memo.
 - `skills/faculty-ai-compass/` contains the self-contained AI Judgment Series front-door Skill for orientation, routing, Learning Maps, and Field Notebook entries without scoring faculty.
 - `evaluations/` contains evaluation prompts, expected behaviors, fixtures, and regression checks.
 - `website/` contains the standalone Next.js catalog.

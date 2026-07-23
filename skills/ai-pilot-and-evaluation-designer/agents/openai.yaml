@@ -1,0 +1,3 @@
+interface:
+  display_name: "SLS AI Pilot and Evaluation Designer"
+  short_description: "Design a responsible AI pilot with evidence, thresholds, and stopping rules."
