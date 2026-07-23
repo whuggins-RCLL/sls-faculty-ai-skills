@@ -198,5 +198,29 @@
       "Compare this tool with a general-purpose Stanford AI service.",
       "What faculty uses appear realistic, and how could I test them safely?"
     ]
+  },
+  {
+    "name": "SLS AI Claims Cross-Examiner",
+    "slug": "ai-claims-cross-examiner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A conversational evidence-literacy lab that helps faculty clarify and test claims about AI, distinguish technical facts from empirical findings, marketing, normative positions, and predictions, calibrate confidence, and identify the evidence, limitations, and experiments that matter.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "AI is just autocomplete, right?",
+      "Does this study really show that AI is more accurate than lawyers?",
+      "This vendor says the product saves 70 percent of research time. How strong is that claim?",
+      "Will AI replace junior lawyers?",
+      "Help me test whether retrieval eliminates hallucinations."
+    ]
   }
 ]
