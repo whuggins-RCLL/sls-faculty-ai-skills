@@ -51,7 +51,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/assessment-and-rubric-builder.zip",
     "summary": "A faculty teaching partner for designing, revising, aligning, and reviewing law-school assessments, exams, rubrics, scoring guides, formative checks, and AI-literacy evaluation exercises.",
     "updated": "2026-07-21",
     "installationGuides": {
@@ -161,7 +161,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/ai-system-anatomy-lab.zip",
     "summary": "A conversational faculty learning lab that reveals the layers inside AI systems and helps distinguish models, products, retrieval, agents, permissions, evaluation, hosting, adaptation, and training before making a build, buy, configure, host, pilot, or do-not-use decision.",
     "updated": "2026-07-23",
     "installationGuides": {
@@ -184,7 +184,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/ai-product-and-vendor-decoder.zip",
     "summary": "A current, conversational faculty briefing tool that explains what an AI product or feature actually is, maps its architecture and dependencies, assesses differentiation, compares meaningful alternatives, checks public Stanford information, proposes faculty use cases, and prepares questions for vendor demonstrations.",
     "updated": "2026-07-23",
     "installationGuides": {
@@ -208,7 +208,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/ai-claims-cross-examiner.zip",
     "summary": "A conversational evidence-literacy lab that helps faculty clarify and test claims about AI, distinguish technical facts from empirical findings, marketing, normative positions, and predictions, calibrate confidence, and identify the evidence, limitations, and experiments that matter.",
     "updated": "2026-07-23",
     "installationGuides": {
@@ -232,7 +232,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/ai-capability-and-failure-lab.zip",
     "summary": "A hands-on faculty learning lab for predicting, testing, observing, and interpreting AI capabilities and failure modes, including source use, omissions, variability, prompt sensitivity, sycophancy, retrieval, confidence, context conflicts, permissions, and human-review burden.",
     "updated": "2026-07-23",
     "installationGuides": {
@@ -256,7 +256,7 @@
       "ChatGPT",
       "Claude"
     ],
-    "downloadUrl": "#coming-soon",
+    "downloadUrl": "/downloads/faculty-ai-compass.zip",
     "summary": "A welcoming, conversational front door to the SLS AI Judgment Series that helps faculty identify the AI question or decision that matters, recognize existing strengths and uncertain mental models, choose an appropriate learning route, begin with a small useful experience, and maintain a personalized Faculty AI Learning Map and Field Notebook without scoring or ranking them.",
     "updated": "2026-07-23",
     "installationGuides": {
