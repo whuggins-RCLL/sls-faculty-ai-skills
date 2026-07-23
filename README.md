@@ -12,15 +12,21 @@ The existing teaching collection includes seven Skills: Course and Syllabus Desi
 
 Tagline: Problem first. Tool second. Evidence always.
 
-The AI Judgment Series helps faculty understand AI systems, interrogate claims, evaluate products, identify appropriate use cases, test performance, design governance, and translate AI understanding into teaching. Its first Skill is AI System Anatomy Lab. Planned future Skills include AI Product Decoder, AI Claims Cross-Examiner, Problem-to-AI Use Case Studio, AI Pilot and Evaluation Designer, AI Governance and Human Judgment Simulator, and AI Teaching Transfer Studio.
+The AI Judgment Series helps faculty understand AI systems, interrogate claims, evaluate products, identify appropriate use cases, test performance, design governance, and translate AI understanding into teaching. Its first Skill is AI System Anatomy Lab, and its second Development Skill is SLS AI Product Decoder. Planned future Skills include AI Claims Cross-Examiner, Problem-to-AI Use Case Studio, AI Pilot and Evaluation Designer, AI Governance and Human Judgment Simulator, and AI Teaching Transfer Studio.
 
 Collection charter: start with the problem; remain vendor neutral; require evidence before deployment; keep human responsibility explicit; apply a Stanford Lens to mission, data, privacy, teaching, and authority; use current web research for changed product, policy, service, benchmark, cost, and Stanford-status claims; keep learning accessible and conversational; and use fictional composite scenario safeguards without attributing invented proposals to real people.
+
+## AI Judgment Series Skill distinction
+
+- **SLS AI System Anatomy Lab** teaches the enduring mental model behind AI systems: layers, data flow, retrieval, agents, hosting, adaptation, training, ownership, and control.
+- **SLS AI Product Decoder** researches and explains a specific current product, feature, model, or vendor: identity, tier, architecture, dependencies, differentiation, Stanford public-information status, comparable alternatives, faculty use cases, vendor-demo questions, and safe narrow trials.
 
 ## Repository structure
 
 - `shared/` contains reusable design-source principles and policy placeholders that should inform skills in this repository. Deployable Skills must copy required runtime material into their own directories.
 - `skills/course-and-syllabus-designer/` contains the Skill for planning an entire course, redesigning a course, and drafting syllabus materials.
 - `skills/ai-system-anatomy-lab/` contains the self-contained AI Judgment Series Skill for understanding AI-system layers.
+- `skills/ai-product-and-vendor-decoder/` contains the self-contained AI Judgment Series Skill for researching and explaining a specific current AI product, feature, model, or vendor.
 - `evaluations/` contains evaluation prompts, expected behaviors, fixtures, and regression checks.
 - `website/` contains the standalone Next.js catalog.
 
