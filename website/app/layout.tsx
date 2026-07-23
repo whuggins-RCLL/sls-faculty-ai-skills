@@ -31,6 +31,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
               <Link href="/skills">Skills</Link>
               <Link href="/what-is-a-skill-file">What&apos;s a skill file?</Link>
               <Link href="/how-to-use">How to use</Link>
+              <Link href="/install">Install</Link>
               <Link href="/troubleshooting">Help</Link>
               <Link href="/about">About</Link>
             </nav>

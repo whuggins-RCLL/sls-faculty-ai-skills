@@ -7,7 +7,7 @@ const nav: [string, string][] = [
   ["Skills", "/skills"],
   ["What's a skill file?", "/what-is-a-skill-file"],
   ["How to use", "/how-to-use"],
-  ["Install", "/install-claude"],
+  ["Install", "/install"],
   ["Help", "/troubleshooting"],
   ["About", "/about"],
 ];
