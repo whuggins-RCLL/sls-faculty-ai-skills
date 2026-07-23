@@ -246,5 +246,29 @@
       "Create a classroom exercise on AI citations and silent omissions.",
       "Why did this output fail, and which system layer should we test next?"
     ]
+  },
+  {
+    "name": "SLS AI Compass",
+    "slug": "faculty-ai-compass",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A welcoming, conversational front door to the SLS AI Judgment Series that helps faculty identify the AI question or decision that matters, recognize existing strengths and uncertain mental models, choose an appropriate learning route, begin with a small useful experience, and maintain a personalized Faculty AI Learning Map and Field Notebook without scoring or ranking them.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I feel completely lost. Where should I begin?",
+      "I understand some AI terms but do not know what questions I should ask.",
+      "Help me choose the most useful SLS AI learning lab for this situation.",
+      "Create a ten-minute AI learning path before my faculty meeting.",
+      "Update my Faculty AI Learning Map based on what I have completed."
+    ]
   }
 ]
