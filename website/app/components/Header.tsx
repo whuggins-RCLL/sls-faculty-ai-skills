@@ -1,20 +1,49 @@
-import Link from "next/link";
+"use client";
 
-const nav = [
+import Link from "next/link";
+import { useState } from "react";
+
+const nav: [string, string][] = [
   ["Skills", "/skills"],
-  ["Install in ChatGPT", "/install-chatgpt"],
-  ["Install in Claude", "/install-claude"],
+  ["What's a skill file?", "/what-is-a-skill-file"],
   ["How to use", "/how-to-use"],
-  ["Troubleshooting", "/troubleshooting"],
+  ["Install", "/install-claude"],
+  ["Help", "/troubleshooting"],
   ["About", "/about"],
 ];
 
 export function Header() {
+  const [open, setOpen] = useState(false);
+
   return (
     <header className="siteHeader">
-      <Link className="brand" href="/">SLS Faculty AI Skills</Link>
-      <nav aria-label="Main navigation">
-        {nav.map(([label, href]) => <Link key={href} href={href}>{label}</Link>)}
+      <Link className="brand" href="/" onClick={() => setOpen(false)}>
+        <span className="brandMark" aria-hidden="true">SLS</span>
+        <span>Faculty AI Skills</span>
+      </Link>
+
+      <button
+        className="navToggleBtn"
+        aria-expanded={open}
+        aria-controls="primary-nav"
+        onClick={() => setOpen((v) => !v)}
+      >
+        {open ? "Close" : "Menu"}
+      </button>
+
+      <nav
+        id="primary-nav"
+        className={`primaryNav${open ? " isOpen" : ""}`}
+        aria-label="Main navigation"
+      >
+        {nav.map(([label, href]) => (
+          <Link key={href} href={href} onClick={() => setOpen(false)}>
+            {label}
+          </Link>
+        ))}
+        <Link className="navCta" href="/skills" onClick={() => setOpen(false)}>
+          Browse skills
+        </Link>
       </nav>
     </header>
   );

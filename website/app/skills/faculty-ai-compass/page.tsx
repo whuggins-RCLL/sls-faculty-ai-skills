@@ -84,8 +84,8 @@ export default function FacultyAiCompassSkill() {
           </p>
         </article>
         <article className="card">
-          <h2>Development download state</h2>
-          <p>This Skill is listed as Development and the downloadable ZIP is coming soon. Installation guides are available for faculty who receive an appropriate Skill package.</p>
+          <h2>Availability</h2>
+          <p>This Skill is in active development but is available to download now. Use the Download Skill ZIP button above, then follow the ChatGPT or Claude installation guide.</p>
         </article>
       </section>
     </>

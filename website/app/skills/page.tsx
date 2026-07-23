@@ -46,7 +46,7 @@ export default function SkillsCatalog() {
     <>
       <p className="eyebrow">Catalog</p>
       <h1>Skills catalog</h1>
-      <p className="lede">Downloadable Skill metadata is loaded from the release manifest so this catalog can be updated without rewriting page content.</p>
+      <p className="lede">Two collections of AI teaching partners for Stanford Law faculty: the Judgment Series for understanding and evaluating AI, and the Teaching &amp; Course Design set for building course materials. Download any skill and add it to ChatGPT or Claude.</p>
 
       <section className="card hero-card">
         <p className="eyebrow">SLS AI Judgment Series</p>
