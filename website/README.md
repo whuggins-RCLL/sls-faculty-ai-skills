@@ -20,9 +20,24 @@ npm run lint
 npm run build
 ```
 
-## Release data
+## Release data and downloads
 
-Public Skill metadata is read from `../releases/skills.json`. The Skill ZIP is not copied into `website/public`; the download button links to the release URL in that manifest.
+Public Skill metadata is read from `../releases/skills.json`.
+
+Downloadable Skill ZIPs are built automatically from the `skills/` source folders
+at build time by `../scripts/build_site_packages.mjs` (run as the `prebuild` step,
+so `npm run build` and every Vercel deploy produce them). Each ZIP is written to
+`public/downloads/<slug>.zip` and served from the site itself — no external file
+host is involved.
+
+A Skill is published only when its `downloadUrl` in `releases/skills.json` is set
+to `"/downloads/<slug>.zip"`. Leave it as `"#coming-soon"` to keep a Skill listed
+but not yet downloadable. The generated ZIPs are git-ignored because they are
+rebuilt on every deploy.
+
+**To publish or update a Skill's download:** edit the Markdown in `skills/<slug>/`,
+make sure its `downloadUrl` is `"/downloads/<slug>.zip"`, then commit and push. The
+site rebuilds and serves the fresh ZIP.
 
 ## Vercel deployment
 
