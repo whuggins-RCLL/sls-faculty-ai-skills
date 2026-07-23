@@ -1,0 +1,3 @@
+interface:
+  display_name: "SLS AI Product Decoder"
+  short_description: "Decode an AI product, compare it, and ask better questions."

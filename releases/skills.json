@@ -174,5 +174,29 @@
       "Help me map the layers in this proposed AI assistant.",
       "What is the difference between retrieval, fine-tuning, and pretraining?"
     ]
+  },
+  {
+    "name": "SLS AI Product Decoder",
+    "slug": "ai-product-and-vendor-decoder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A current, conversational faculty briefing tool that explains what an AI product or feature actually is, maps its architecture and dependencies, assesses differentiation, compares meaningful alternatives, checks public Stanford information, proposes faculty use cases, and prepares questions for vendor demonstrations.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "What do I need to know about this AI product?",
+      "Is this genuinely differentiated or mostly an interface over another model?",
+      "Prepare me for this vendor demonstration.",
+      "Compare this tool with a general-purpose Stanford AI service.",
+      "What faculty uses appear realistic, and how could I test them safely?"
+    ]
   }
 ]
