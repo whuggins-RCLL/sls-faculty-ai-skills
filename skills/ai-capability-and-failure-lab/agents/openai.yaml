@@ -1,0 +1,3 @@
+interface:
+  display_name: "SLS AI Capability and Failure Lab"
+  short_description: "Run safe experiments that reveal AI strengths and failure modes."

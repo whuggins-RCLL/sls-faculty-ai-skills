@@ -222,5 +222,29 @@
       "Will AI replace junior lawyers?",
       "Help me test whether retrieval eliminates hallucinations."
     ]
+  },
+  {
+    "name": "SLS AI Capability and Failure Lab",
+    "slug": "ai-capability-and-failure-lab",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "#coming-soon",
+    "summary": "A hands-on faculty learning lab for predicting, testing, observing, and interpreting AI capabilities and failure modes, including source use, omissions, variability, prompt sensitivity, sycophancy, retrieval, confidence, context conflicts, permissions, and human-review burden.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Show me a five-minute experiment that reveals a subtle AI failure.",
+      "Test whether this system admits when the necessary source is missing.",
+      "Help me compare repeated answers and determine whether the differences matter.",
+      "Create a classroom exercise on AI citations and silent omissions.",
+      "Why did this output fail, and which system layer should we test next?"
+    ]
   }
 ]
